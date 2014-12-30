@@ -1,0 +1,10 @@
+<% _.each(pizzas, function(pizza) { %>
+  <div class='pizza'>
+    <h2><%= pizza.orders %></h2>
+    <ul class='toppings'>
+      <% _.each(pizza.toppings, function(topping) { %>
+        <li><%= topping %></li>
+      <% }); %>
+    </ul>
+  </div>
+<% }); %>

@@ -1,0 +1,36 @@
+{
+  "name": "pizza",
+  "version": "0.0.0",
+  "authors": [
+    "Morgan Ney <morganney@gmail.com>"
+  ],
+  "description": "top 20 most popular pizzas",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "pizza",
+    "example",
+    "app"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "requirejs-text": "~2.0.12",
+    "requirejs": "~2.1.15"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "mocha": "~2.1.0",
+    "r.js": "~2.1.15",
+    "almond": "~0.3.0"
+  }
+}
