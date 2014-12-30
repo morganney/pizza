@@ -6,5 +6,5 @@ for a locally running web server, such as apache or nginx.
 at a terminal navigate to the document root and type "bower install" to 
 download the dependencies.
 
-load http://<HOST-NAME>/index.html in a web browser. for example, 
+load http://[HOST-NAME]/index.html in a web browser. for example, 
 http://localhost/index.html.
